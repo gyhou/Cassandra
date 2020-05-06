@@ -1,4 +1,4 @@
-# Data Modeling with Cassandra
+# Data Modeling with Cassandra (NoSQL)
 
 ## Summary
 1. Processed the csv files from `event_data` to create a single csv file that will be used for Apache Casssandra tables
