@@ -1,6 +1,8 @@
 # Data Modeling with Cassandra (NoSQL)
 
 ## Summary
+The purpose of this database is to understand what, where and how each user is listening to the songs in Sparkify. The analytial goals is to find out what is making the free tier users switch to paid tier and why paid users are downgrading to free tier through their listening habits.
+
 1. Processed the csv files from `event_data` to create a single csv file that will be used for Apache Casssandra tables
 1. Querying data through Apache Cassandra
     - Created Cassandra Cluster and Keyspace
@@ -9,7 +11,7 @@
     - Utilized Primary Key (includes Partition Key and Clustering columns) to query
 
 ## ETL Pipeline Processing
-- Combine all csv files from `event_data` into one single csv file `event_datafile_new.csv`
+- Combine all csv files from `event_data` into a denormalized dataset, `event_datafile_new.csv`
 - The image below is a screenshot of what the denormalized data appear like
 
 ![](image_event_datafile_new.jpg)
