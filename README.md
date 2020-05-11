@@ -17,7 +17,7 @@ The purpose of this database is to understand what, where and how each user is l
 ![](image_event_datafile_new.jpg)
 
 ## Data Modeling
-- Created the Apache Cassandra tables for ***three queries***
+- Created unique tables for each query
 - The CREATE TABLE statement includes the appropriate datatype and unique names
 - Table names reflect the query and the result it will generate
 - Created one table per query, following the rules of Apache Cassandra
